@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>L'Antre du Chill</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #0d1b2a; /* Bleu foncé */
+      color: #ffffff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      min-height: 100vh;
+      justify-content: center;
+    }
+
+    header {
+      padding: 30px 20px;
+    }
+
+    h1 {
+      font-size: 3em;
+      color: #00b4d8;
+      margin-bottom: 10px;
+    }
+
+    p {
+      max-width: 600px;
+      line-height: 1.6;
+      font-size: 1.2em;
+    }
+
+    .join-btn {
+      margin-top: 30px;
+      padding: 15px 30px;
+      background-color: #00b4d8;
+      border: none;
+      color: #0d1b2a;
+      font-weight: bold;
+      font-size: 1em;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      text-decoration: none;
+    }
+
+    .join-btn:hover {
+      background-color: #0096c7;
+    }
+
+    footer {
+      position: absolute;
+      bottom: 20px;
+      font-size: 0.9em;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Bienvenue dans L'Antre du Chill</h1>
+    <p>
+      Nous sommes une bande de potes passionnés de jeux, de discussions chill et d’entraide.
+      Ce serveur a été créé pour rassembler des gens cools, sans prise de tête, dans une ambiance détendue.
+      Que tu sois gamer, créatif, ou juste là pour discuter, tu es le bienvenu !
+    </p>
+    <a class="join-btn" href="https://discord.gg/2R8NFs3uXc" target="_blank">Rejoindre le serveur</a>
+  </header>
+
+  <footer>
+    © 2025 L'Antre du Chill — Tous droits réservés
+  </footer>
+
+</body>
+</html>
